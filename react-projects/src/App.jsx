@@ -1,9 +1,11 @@
-
-
-
-
+import RollDice from './components/roll-dice/rollDice'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+library.add(fas)
+import PasswordValidator from "./components/password-validator/index"
 import Joke from "./components/joke-generators/joke";
 import SubmissionForm from "./components/submission-form/index"
+import ToDo from "./components/to-do-app/App"
 import './App.css'
 
 function App() {
@@ -16,8 +18,9 @@ function App() {
             <Joke/>
         </div>
 <SubmissionForm />
-
-
+<PasswordValidator/>
+ <RollDice />
+ <ToDo/>
     </>
   )
 }
