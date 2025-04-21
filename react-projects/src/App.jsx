@@ -8,8 +8,9 @@
 // import ToDo from "./components/to-do-app/App"
 // import Dictionary from "./components/Dictionary/Dictionary"
 // import QrCodeGenerator from "./components/Qr-code-generator/App"
-import WordCount from "./components/word-count/App"
+// import WordCount from "./components/word-count/App"
 // import Memes from "./components/memes/App"
+import WeatherApp from "./components/weather-app/App"
 // import './App.css'
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
  <QrCodeGenerator/>
  <Dictionary />
  <Memes/> */}
- <WordCount/>
+ {/* <WordCount/> */}
+ <WeatherApp/>
     </>
   )
 }
