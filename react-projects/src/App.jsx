@@ -10,7 +10,12 @@
 // import QrCodeGenerator from "./components/Qr-code-generator/App"
 // import WordCount from "./components/word-count/App"
 // import Memes from "./components/memes/App"
-import WeatherApp from "./components/weather-app/App"
+// import WeatherApp from "./components/weather-app/App"
+// import TaskSchedule from "./components/task-scheduler/App"
+// import LanguageTranslator from "./components/Language-translator/App"
+
+
+
 // import './App.css'
 
 function App() {
@@ -30,7 +35,9 @@ function App() {
  <Dictionary />
  <Memes/> */}
  {/* <WordCount/> */}
- <WeatherApp/>
+ {/* <WeatherApp/> */}
+ {/* <TaskSchedule/> */}
+ {/* <LanguageTranslator/> */}
     </>
   )
 }
