@@ -6,7 +6,9 @@ import PasswordValidator from "./components/password-validator/index"
 import Joke from "./components/joke-generators/joke";
 import SubmissionForm from "./components/submission-form/index"
 import ToDo from "./components/to-do-app/App"
-import './App.css'
+import Dictionary from "./components/Dictionary/Dictionary"
+import QrCodeGenerator from "./components/Qr-code-generator/App"
+// import './App.css'
 
 function App() {
  
@@ -21,6 +23,8 @@ function App() {
 <PasswordValidator/>
  <RollDice />
  <ToDo/>
+ <QrCodeGenerator/>
+ <Dictionary />
     </>
   )
 }
